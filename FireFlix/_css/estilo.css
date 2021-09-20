@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+body {
+    padding: 0;
+    background-color: #000000;
+    text-align: center;
+    color: #ffffff;
+}
+
+header#cabecalho {
+    background-image: url("../_assets/foto_background.jpg");
+    margin: -10px;
+    width: cover;
+    height: 700px;
+    opacity: 0.5;
+}
+
+div#entrada {
+    margin-left: 650px;
+    position: absolute;
+    margin-top: -650px;
+    text-align: center;
+}
+
+div#entrada h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35pt;
+    margin-top: 200px;
+}
+
+div#entrada h6 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20pt;
+    font-weight: normal;
+    margin-top: -30px;
+}
+
+div#entrada p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14pt;
+    font-weight: normal;
+    margin-top: -30px;
+}
+
+div#entrada input {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14pt;
+    font-weight: normal;
+    height: 50px;
+    width: 450px;
+    margin-right: 55px;
+}
